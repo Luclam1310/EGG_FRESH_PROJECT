@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="top" T_Register="647(0)" T_Alu="360(0)" T_Lut="14041(0)" T_MULT18X18="3(0)" T_MULT36X36="4(0)" T_MULTALU36X18="4(0)" T_Bsram="1(0)" T_Ssram="8(0)">
+ <SubModule name="u_as7263" Register="308" Alu="22" Lut="547" T_Register="372(308)" T_Alu="22(22)" T_Lut="711(547)">
+  <SubModule name="u_i2c" Register="64" Lut="164" T_Register="64(64)" T_Lut="164(164)"/>
+ </SubModule>
+ <SubModule name="u_mlp" Register="185" Alu="329" Lut="13186" MULT18X18="3" MULT36X36="4" MULTALU36X18="4" Ssram="8" T_Register="185(185)" T_Alu="329(329)" T_Lut="13186(13186)" T_MULT18X18="3(3)" T_MULT36X36="4(4)" T_MULTALU36X18="4(4)" T_Ssram="8(8)"/>
+ <SubModule name="u_uart" Register="22" Lut="38" T_Register="48(22)" T_Alu="9(0)" T_Lut="65(38)" T_Bsram="1(0)">
+  <SubModule name="u_fifo" Register="25" Alu="9" Lut="27" T_Register="26(25)" T_Alu="9(9)" T_Lut="27(27)" T_Bsram="1(0)">
+   <SubModule name="FIFO_Inst" Register="1" Bsram="1" T_Register="1(1)" T_Bsram="1(1)"/>
+  </SubModule>
+ </SubModule>
+ <SubModule name="u_led" Register="42" Lut="79" T_Register="42(42)" T_Lut="79(79)"/>
+</Module>

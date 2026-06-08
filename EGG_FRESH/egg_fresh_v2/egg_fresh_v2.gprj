@@ -1,0 +1,18 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW2AR-18C" pn="GW2AR-LV18QN88C8/I7">gw2ar18c-000</Device>
+    <FileList>
+        <File path="src/as7263_driver.sv" type="file.verilog" enable="1"/>
+        <File path="src/cycle_timer.sv" type="file.verilog" enable="1"/>
+        <File path="src/fifo.sv" type="file.verilog" enable="1"/>
+        <File path="src/i2c_master.sv" type="file.verilog" enable="1"/>
+        <File path="src/led.sv" type="file.verilog" enable="1"/>
+        <File path="src/top.sv" type="file.verilog" enable="1"/>
+        <File path="src/uart_tx.sv" type="file.verilog" enable="1"/>
+        <File path="src/tang_nano_20k.cst" type="file.cst" enable="1"/>
+        <File path="src/timing.sdc" type="file.sdc" enable="1"/>
+    </FileList>
+</Project>

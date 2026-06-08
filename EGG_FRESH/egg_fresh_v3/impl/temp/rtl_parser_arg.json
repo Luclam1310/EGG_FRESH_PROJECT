@@ -1,0 +1,37 @@
+{
+ "Device" : "GW2AR-18C",
+ "Files" : [
+  {
+   "Path" : "C:/KY_8/EGG_FRESH/egg_fresh_v3/src/as7263_driver.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/KY_8/EGG_FRESH/egg_fresh_v3/src/fifo.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/KY_8/EGG_FRESH/egg_fresh_v3/src/led.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/KY_8/EGG_FRESH/egg_fresh_v3/src/top.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/KY_8/EGG_FRESH/egg_fresh_v3/src/uart_tx.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/KY_8/EGG_FRESH/egg_fresh_v3/src/i2c_as7263.sv",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "C:/KY_8/EGG_FRESH/egg_fresh_v3/impl/temp/rtl_parser.result",
+ "Top" : "",
+ "VerilogStd" : "sysv",
+ "VhdlStd" : "vhdl_93"
+}

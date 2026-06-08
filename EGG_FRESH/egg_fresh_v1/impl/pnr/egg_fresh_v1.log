@@ -1,0 +1,21 @@
+Reading netlist file: "C:\KY_8\EGG_FRESH\egg_fresh_v1\impl\gwsynthesis\egg_fresh_v1.vg"
+Parsing netlist file "C:\KY_8\EGG_FRESH\egg_fresh_v1\impl\gwsynthesis\egg_fresh_v1.vg" completed
+Processing netlist completed
+Reading constraint file: "C:\KY_8\EGG_FRESH\egg_fresh_v1\src\tang_nano_20k.cst"
+ERROR  (CT1135) : "C:\KY_8\EGG_FRESH\egg_fresh_v1\src\tang_nano_20k.cst":7 | Can't find object named 'sys_clk'
+ERROR  (CT1135) : "C:\KY_8\EGG_FRESH\egg_fresh_v1\src\tang_nano_20k.cst":8 | Can't find object named 'sys_clk'
+ERROR  (CT1135) : "C:\KY_8\EGG_FRESH\egg_fresh_v1\src\tang_nano_20k.cst":13 | Can't find object named 'rst'
+ERROR  (CT1135) : "C:\KY_8\EGG_FRESH\egg_fresh_v1\src\tang_nano_20k.cst":14 | Can't find object named 'rst'
+ERROR  (CT1135) : "C:\KY_8\EGG_FRESH\egg_fresh_v1\src\tang_nano_20k.cst":18 | Can't find object named 'scl'
+ERROR  (CT1135) : "C:\KY_8\EGG_FRESH\egg_fresh_v1\src\tang_nano_20k.cst":19 | Can't find object named 'scl'
+ERROR  (CT1135) : "C:\KY_8\EGG_FRESH\egg_fresh_v1\src\tang_nano_20k.cst":20 | Can't find object named 'sda'
+ERROR  (CT1135) : "C:\KY_8\EGG_FRESH\egg_fresh_v1\src\tang_nano_20k.cst":21 | Can't find object named 'sda'
+ERROR  (CT1135) : "C:\KY_8\EGG_FRESH\egg_fresh_v1\src\tang_nano_20k.cst":24 | Can't find object named 'uart_tx'
+ERROR  (CT1135) : "C:\KY_8\EGG_FRESH\egg_fresh_v1\src\tang_nano_20k.cst":25 | Can't find object named 'uart_tx'
+ERROR  (CT1135) : "C:\KY_8\EGG_FRESH\egg_fresh_v1\src\tang_nano_20k.cst":28 | Can't find object named 'led[0]'
+ERROR  (CT1135) : "C:\KY_8\EGG_FRESH\egg_fresh_v1\src\tang_nano_20k.cst":29 | Can't find object named 'led[0]'
+ERROR  (CT1135) : "C:\KY_8\EGG_FRESH\egg_fresh_v1\src\tang_nano_20k.cst":30 | Can't find object named 'led[1]'
+ERROR  (CT1135) : "C:\KY_8\EGG_FRESH\egg_fresh_v1\src\tang_nano_20k.cst":31 | Can't find object named 'led[1]'
+ERROR  (CT1135) : "C:\KY_8\EGG_FRESH\egg_fresh_v1\src\tang_nano_20k.cst":32 | Can't find object named 'led[2]'
+ERROR  (CT1135) : "C:\KY_8\EGG_FRESH\egg_fresh_v1\src\tang_nano_20k.cst":33 | Can't find object named 'led[2]'
+Physical Constraint parsed completed with errors

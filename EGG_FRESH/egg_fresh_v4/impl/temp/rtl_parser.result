@@ -1,0 +1,82 @@
+[
+ {
+  "InstFile" : "C:/KY_8/EGG_FRESH/egg_fresh_v4/src/cycle_timer.sv",
+  "InstLine" : 21,
+  "InstName" : "cycle_timer",
+  "ModuleFile" : "C:/KY_8/EGG_FRESH/egg_fresh_v4/src/cycle_timer.sv",
+  "ModuleLine" : 21,
+  "ModuleName" : "cycle_timer"
+ },
+ {
+  "InstFile" : "C:/KY_8/EGG_FRESH/egg_fresh_v4/src/top.sv",
+  "InstLine" : 27,
+  "InstName" : "top",
+  "ModuleFile" : "C:/KY_8/EGG_FRESH/egg_fresh_v4/src/top.sv",
+  "ModuleLine" : 27,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/KY_8/EGG_FRESH/egg_fresh_v4/src/top.sv",
+    "InstLine" : 55,
+    "InstName" : "u_as7263",
+    "ModuleFile" : "C:/KY_8/EGG_FRESH/egg_fresh_v4/src/as7263_driver.sv",
+    "ModuleLine" : 30,
+    "ModuleName" : "as7263_driver",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/KY_8/EGG_FRESH/egg_fresh_v4/src/as7263_driver.sv",
+      "InstLine" : 55,
+      "InstName" : "u_i2c",
+      "ModuleFile" : "C:/KY_8/EGG_FRESH/egg_fresh_v4/src/i2c_master.sv",
+      "ModuleLine" : 25,
+      "ModuleName" : "i2c_master"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/KY_8/EGG_FRESH/egg_fresh_v4/src/top.sv",
+    "InstLine" : 71,
+    "InstName" : "u_mlp",
+    "ModuleFile" : "C:/KY_8/EGG_FRESH/egg_fresh_v4/src/mlp_inference.sv",
+    "ModuleLine" : 19,
+    "ModuleName" : "mlp_inference"
+   },
+   {
+    "InstFile" : "C:/KY_8/EGG_FRESH/egg_fresh_v4/src/top.sv",
+    "InstLine" : 83,
+    "InstName" : "u_uart",
+    "ModuleFile" : "C:/KY_8/EGG_FRESH/egg_fresh_v4/src/uart_tx.sv",
+    "ModuleLine" : 21,
+    "ModuleName" : "uart_tx",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/KY_8/EGG_FRESH/egg_fresh_v4/src/uart_tx.sv",
+      "InstLine" : 43,
+      "InstName" : "u_fifo",
+      "ModuleFile" : "C:/KY_8/EGG_FRESH/egg_fresh_v4/src/fifo.sv",
+      "ModuleLine" : 67,
+      "ModuleName" : "fifo",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/KY_8/EGG_FRESH/egg_fresh_v4/src/fifo.sv",
+        "InstLine" : 93,
+        "InstName" : "FIFO_Inst",
+        "ModuleFile" : "C:/KY_8/EGG_FRESH/egg_fresh_v4/src/fifo.sv",
+        "ModuleLine" : 15,
+        "ModuleName" : "RAM_2Port"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/KY_8/EGG_FRESH/egg_fresh_v4/src/top.sv",
+    "InstLine" : 94,
+    "InstName" : "u_led",
+    "ModuleFile" : "C:/KY_8/EGG_FRESH/egg_fresh_v4/src/led.sv",
+    "ModuleLine" : 13,
+    "ModuleName" : "led"
+   }
+  ]
+ }
+]

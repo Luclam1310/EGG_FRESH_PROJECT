@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="top" T_Register="346(0)" T_Alu="33(0)" T_Lut="710(0)" T_Bsram="1(0)">
+ <SubModule name="u_as7263" Register="209" Alu="24" Lut="484" T_Register="246(209)" T_Alu="24(24)" T_Lut="558(484)">
+  <SubModule name="u_i2c" Register="37" Lut="74" T_Register="37(37)" T_Lut="74(74)"/>
+ </SubModule>
+ <SubModule name="u_uart" Register="33" Lut="40" T_Register="59(33)" T_Alu="9(0)" T_Lut="67(40)" T_Bsram="1(0)">
+  <SubModule name="u_fifo" Register="25" Alu="9" Lut="27" T_Register="26(25)" T_Alu="9(9)" T_Lut="27(27)" T_Bsram="1(0)">
+   <SubModule name="FIFO_Inst" Register="1" Bsram="1" T_Register="1(1)" T_Bsram="1(1)"/>
+  </SubModule>
+ </SubModule>
+ <SubModule name="u_led" Register="41" Lut="85" T_Register="41(41)" T_Lut="85(85)"/>
+</Module>

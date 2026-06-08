@@ -1,0 +1,67 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\KY_8\EGG_FRESH\egg_fresh_v4\src\as7263_driver.sv'
+Analyzing Verilog file 'C:\KY_8\EGG_FRESH\egg_fresh_v4\src\cycle_timer.sv'
+Analyzing Verilog file 'C:\KY_8\EGG_FRESH\egg_fresh_v4\src\fifo.sv'
+Analyzing Verilog file 'C:\KY_8\EGG_FRESH\egg_fresh_v4\src\i2c_master.sv'
+Analyzing Verilog file 'C:\KY_8\EGG_FRESH\egg_fresh_v4\src\led.sv'
+Analyzing Verilog file 'C:\KY_8\EGG_FRESH\egg_fresh_v4\src\mlp_weights.sv'
+WARN  (EX2582) : Parameter 'SCALER_MEAN_RAW' declared inside package 'mlp_weights_pkg' shall be treated as localparam("C:\KY_8\EGG_FRESH\egg_fresh_v4\src\mlp_weights.sv":5)
+WARN  (EX2582) : Parameter 'SCALER_MEAN_RATIO' declared inside package 'mlp_weights_pkg' shall be treated as localparam("C:\KY_8\EGG_FRESH\egg_fresh_v4\src\mlp_weights.sv":10)
+WARN  (EX2582) : Parameter 'SCALER_STD_INV' declared inside package 'mlp_weights_pkg' shall be treated as localparam("C:\KY_8\EGG_FRESH\egg_fresh_v4\src\mlp_weights.sv":15)
+WARN  (EX2582) : Parameter 'W1' declared inside package 'mlp_weights_pkg' shall be treated as localparam("C:\KY_8\EGG_FRESH\egg_fresh_v4\src\mlp_weights.sv":22)
+WARN  (EX2582) : Parameter 'B1' declared inside package 'mlp_weights_pkg' shall be treated as localparam("C:\KY_8\EGG_FRESH\egg_fresh_v4\src\mlp_weights.sv":37)
+WARN  (EX2582) : Parameter 'W2' declared inside package 'mlp_weights_pkg' shall be treated as localparam("C:\KY_8\EGG_FRESH\egg_fresh_v4\src\mlp_weights.sv":44)
+WARN  (EX2582) : Parameter 'B2' declared inside package 'mlp_weights_pkg' shall be treated as localparam("C:\KY_8\EGG_FRESH\egg_fresh_v4\src\mlp_weights.sv":63)
+WARN  (EX2582) : Parameter 'W3' declared inside package 'mlp_weights_pkg' shall be treated as localparam("C:\KY_8\EGG_FRESH\egg_fresh_v4\src\mlp_weights.sv":70)
+WARN  (EX2582) : Parameter 'B3' declared inside package 'mlp_weights_pkg' shall be treated as localparam("C:\KY_8\EGG_FRESH\egg_fresh_v4\src\mlp_weights.sv":81)
+Analyzing Verilog file 'C:\KY_8\EGG_FRESH\egg_fresh_v4\src\mlp_inference.sv'
+Analyzing Verilog file 'C:\KY_8\EGG_FRESH\egg_fresh_v4\src\top.sv'
+Analyzing Verilog file 'C:\KY_8\EGG_FRESH\egg_fresh_v4\src\uart_tx.sv'
+Compiling module 'top'("C:\KY_8\EGG_FRESH\egg_fresh_v4\src\top.sv":27)
+Compiling module 'as7263_driver'("C:\KY_8\EGG_FRESH\egg_fresh_v4\src\as7263_driver.sv":30)
+Compiling module 'i2c_master'("C:\KY_8\EGG_FRESH\egg_fresh_v4\src\i2c_master.sv":25)
+WARN  (EX3791) : Expression size 17 truncated to fit in target size 16("C:\KY_8\EGG_FRESH\egg_fresh_v4\src\i2c_master.sv":53)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 3("C:\KY_8\EGG_FRESH\egg_fresh_v4\src\i2c_master.sv":139)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 3("C:\KY_8\EGG_FRESH\egg_fresh_v4\src\i2c_master.sv":216)
+WARN  (EX3791) : Expression size 24 truncated to fit in target size 23("C:\KY_8\EGG_FRESH\egg_fresh_v4\src\as7263_driver.sv":75)
+WARN  (EX3791) : Expression size 26 truncated to fit in target size 25("C:\KY_8\EGG_FRESH\egg_fresh_v4\src\as7263_driver.sv":81)
+WARN  (EX3791) : Expression size 7 truncated to fit in target size 6("C:\KY_8\EGG_FRESH\egg_fresh_v4\src\as7263_driver.sv":289)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("C:\KY_8\EGG_FRESH\egg_fresh_v4\src\as7263_driver.sv":323)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("C:\KY_8\EGG_FRESH\egg_fresh_v4\src\as7263_driver.sv":400)
+WARN  (EX3791) : Expression size 7 truncated to fit in target size 6("C:\KY_8\EGG_FRESH\egg_fresh_v4\src\as7263_driver.sv":417)
+Compiling module 'mlp_inference'("C:\KY_8\EGG_FRESH\egg_fresh_v4\src\mlp_inference.sv":19)
+Extracting RAM for identifier 'layer1_out'("C:\KY_8\EGG_FRESH\egg_fresh_v4\src\mlp_inference.sv":34)
+Extracting RAM for identifier 'layer2_out'("C:\KY_8\EGG_FRESH\egg_fresh_v4\src\mlp_inference.sv":35)
+WARN  (EX3791) : Expression size 34 truncated to fit in target size 32("C:\KY_8\EGG_FRESH\egg_fresh_v4\src\mlp_inference.sv":81)
+Compiling module 'uart_tx'("C:\KY_8\EGG_FRESH\egg_fresh_v4\src\uart_tx.sv":21)
+Compiling module 'fifo'("C:\KY_8\EGG_FRESH\egg_fresh_v4\src\fifo.sv":67)
+Compiling module 'RAM_2Port(WIDTH=8)'("C:\KY_8\EGG_FRESH\egg_fresh_v4\src\fifo.sv":15)
+Extracting RAM for identifier 'r_Mem'("C:\KY_8\EGG_FRESH\egg_fresh_v4\src\fifo.sv":30)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("C:\KY_8\EGG_FRESH\egg_fresh_v4\src\fifo.sv":123)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("C:\KY_8\EGG_FRESH\egg_fresh_v4\src\fifo.sv":132)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 9("C:\KY_8\EGG_FRESH\egg_fresh_v4\src\fifo.sv":141)
+WARN  (EX3791) : Expression size 10 truncated to fit in target size 9("C:\KY_8\EGG_FRESH\egg_fresh_v4\src\fifo.sv":149)
+WARN  (EX3791) : Expression size 10 truncated to fit in target size 9("C:\KY_8\EGG_FRESH\egg_fresh_v4\src\uart_tx.sv":73)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("C:\KY_8\EGG_FRESH\egg_fresh_v4\src\uart_tx.sv":134)
+Compiling module 'led'("C:\KY_8\EGG_FRESH\egg_fresh_v4\src\led.sv":13)
+NOTE  (EX0101) : Current top module is "top"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "C:\KY_8\EGG_FRESH\egg_fresh_v4\impl\gwsynthesis\egg_fresh_v2.vg" completed
+[100%] Generate report file "C:\KY_8\EGG_FRESH\egg_fresh_v4\impl\gwsynthesis\egg_fresh_v2_syn.rpt.html" completed
+GowinSynthesis finish

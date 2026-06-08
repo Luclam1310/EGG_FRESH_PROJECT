@@ -1,0 +1,36 @@
+[
+ {
+  "InstFile" : "C:/KY_8/EGG_FRESH/egg_fresh_v1/src/glitch_filter.sv",
+  "InstLine" : 9,
+  "InstName" : "glitch_filter",
+  "ModuleFile" : "C:/KY_8/EGG_FRESH/egg_fresh_v1/src/glitch_filter.sv",
+  "ModuleLine" : 9,
+  "ModuleName" : "glitch_filter"
+ },
+ {
+  "InstFile" : "C:/KY_8/EGG_FRESH/egg_fresh_v1/src/i2c_master.sv",
+  "InstLine" : 21,
+  "InstName" : "i2c_master",
+  "ModuleFile" : "C:/KY_8/EGG_FRESH/egg_fresh_v1/src/i2c_master.sv",
+  "ModuleLine" : 21,
+  "ModuleName" : "i2c_master",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/KY_8/EGG_FRESH/egg_fresh_v1/src/i2c_master.sv",
+    "InstLine" : 87,
+    "InstName" : "timeout_cycle_timer",
+    "ModuleFile" : "C:/KY_8/EGG_FRESH/egg_fresh_v1/src/cycle_timer.sv",
+    "ModuleLine" : 21,
+    "ModuleName" : "cycle_timer"
+   }
+  ]
+ },
+ {
+  "InstFile" : "C:/KY_8/EGG_FRESH/egg_fresh_v1/src/sync_reset.sv",
+  "InstLine" : 6,
+  "InstName" : "sync_reset",
+  "ModuleFile" : "C:/KY_8/EGG_FRESH/egg_fresh_v1/src/sync_reset.sv",
+  "ModuleLine" : 6,
+  "ModuleName" : "sync_reset"
+ }
+]

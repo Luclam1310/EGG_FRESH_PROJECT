@@ -1,0 +1,51 @@
+//
+//Written by GowinSynthesis
+//Tool Version "V1.9.11.03 Education"
+//Mon Apr 27 15:49:06 2026
+
+//Source file index table:
+//file0 "\C:/KY_8/EGG_FRESH/egg_fresh_v1/src/top.sv"
+//file1 "\C:/KY_8/EGG_FRESH/egg_fresh_v1/src/as7263_driver.sv"
+//file2 "\C:/KY_8/EGG_FRESH/egg_fresh_v1/src/uart_tx.sv"
+//file3 "\C:/KY_8/EGG_FRESH/egg_fresh_v1/src/led.sv"
+//file4 "\C:/KY_8/EGG_FRESH/egg_fresh_v1/src/fifo.sv"
+//file5 "\C:/KY_8/EGG_FRESH/egg_fresh_v1/src/cycle_timer.sv"
+//file6 "\C:/KY_8/EGG_FRESH/egg_fresh_v1/src/glitch_filter.sv"
+//file7 "\C:/KY_8/EGG_FRESH/egg_fresh_v1/src/i2c_master.sv"
+//file8 "\C:/KY_8/EGG_FRESH/egg_fresh_v1/src/sync_reset.sv"
+`pragma protect begin_protected
+`pragma protect version="2.3"
+`pragma protect author="default"
+`pragma protect author_info="default"
+`pragma protect encrypt_agent="GOWIN"
+`pragma protect encrypt_agent_info="GOWIN Encrypt Version 2.3"
+
+`pragma protect encoding=(enctype="base64", line_length=76, bytes=256)
+`pragma protect key_keyowner="GOWIN",key_keyname="GWK2023-09",key_method="rsa"
+`pragma protect key_block
+JRS3ySD76jzhqh3+BKmnOtXCciuhCbiHC9/lcmZkl0e0yNB1wWVELPG0DXVyLuxkoZKnZq5YuRrK
+hnC5FYVxpBnsFLaH30VNZ4qdkJKNeD6yx5ppAjU8uZ88HtwrlpKa8gAb5UOpZAdOQ1ENpnELuw1N
+GdgjwHVeS63djCL20V0M5uJXIcX/yHGEtVVkP91HUvamt0RHhZyb3fDx8wbQhLM0mf4ScoMRZZSz
+ppvTulGFFoAJP8/YWu/0YYvFgJFTYKpnAUvZ2Ja7ZAL7o0DkqN41aFRmC/nPkhIjZ7Vk9nOfXSGo
+U155eqtI3u7c2aVM7P0ngsJYFTJAUfzvfUkr3g==
+
+`pragma protect encoding=(enctype="base64", line_length=76, bytes=768)
+`pragma protect data_keyowner="default-ip-vendor"
+`pragma protect data_keyname="default-ip-key"
+`pragma protect data_method="aes128-cfb"
+`pragma protect data_block
+psh8R6b7lC6cTT+Ksdh+aD4vbEFPkMJgY6rTL7RIFLtBPaTAVhR4dwmqetUGAz994iJ7DosBlfbM
+Z8DuQnKKouewZPsSwTO6oLbvOqKFrw9U4BAnw35V6rRuG59zG0MA7s32GoPihG9Vbx0bAGuKVYuP
+8mcAuPXC1sfKuNVnby5KrfBI75Uv0H8cwEv3YSgvJbn+xJ/At8yzGpXT/yrpnrhToeY5lqyjnem+
+bpDGsyEP7ye0EtAx2ZkEnj5az59oBpXlakTp9IsRzSlY2P41SCxbF3rPyfKeK4m+ABawacASm7IR
+b5rgbVnwfWl35U5EvSkvXT5szca89e5I8grYgLVVNvQyGkmyqNpcmRF1RVO3Js/rNZwtA37cdQ4u
+rPJhByMWiT2Cpmyvw04ue7Ny2c2JwxlfnjnzLZLFdqthpfIgwHSZiNnzeAsOOtURRYFNJ6s3fEye
+ds7krYW1JOINqphgQv+0wtFWAVRWXHDcyHWgrtQ+v6ekjx+a1VQ3GLeyNtmKXG0+D9J7+qMmhUx4
+uSTKHuTEiVQM8OHiZre/udw8KaHxKBF2IkigfEPZrfvM8Jgj6sYe1kmAwOY0Ge55C/pfk1PoGWhw
+hgGsgPTJTjfgkMSikmglchseYPvy5v7b3QXy/fOiOsosfO5Wq2zraRqJGQF1HRDgvqAL2xRDRu3r
+Q3LPMOqB75bUqOytNvJocwNYLjL49BVK0G4h1TFDLX1JY1tZBlIJY+tGlwK/6vEBMdkKaJ+6jdGQ
+x7azqeC9AfkrqQUuvCB+Fv43k9oHy10JTxrtnIkYVls9EAqIDztaxV0Q3Yl1HA9sUUn45+113eRI
+mXWiLdHVx82I29ZMnVzRO1WnJyruMjJ1O3CYZEn0bWoY8wQGzCLA2AeY7WRD4h8zLJOzjP6HKOxK
++Wp/LA5/HxoTVTnsj45zBrs6HuTqCWSo82oYTZseRgcauhjfiahgK7CkZMWkM2AMM+KkcB+BN7Fs
+8NAuX/YRBT6vcKXOdlvNlpXNPwI91IrzaESV
+`pragma protect end_protected
