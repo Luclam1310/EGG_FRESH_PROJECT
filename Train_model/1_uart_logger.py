@@ -1,16 +1,3 @@
-"""
-╔══════════════════════════════════════════════════════════════╗
-║  FILE 1: uart_logger.py                                      ║
-║  Nhận dữ liệu từ Tang Nano 20K qua UART, lưu vào CSV        ║
-║                                                              ║
-║  Cách dùng:                                                  ║
-║    python 1_uart_logger.py                                   ║
-║                                                              ║
-║  Trước khi chạy:                                             ║
-║    pip install pyserial                                      ║
-╚══════════════════════════════════════════════════════════════╝
-"""
-
 import serial
 import serial.tools.list_ports
 import csv
@@ -18,17 +5,8 @@ import os
 import re
 from datetime import datetime
 
-# ─────────────────────────────────────────────────────────────
-# CẤU HÌNH — chỉnh sửa phần này
-# ─────────────────────────────────────────────────────────────
 BAUD_RATE   = 115200
 CSV_FILE    = "egg_data.csv"   # file lưu dữ liệu
-
-# Tang Nano 20K output format (từ as7263_driver.sv):
-#   R:XXXX S:XXXX T:XXXX U:XXXX V:XXXX W:XXXX\r\n
-# Ví dụ: R:0A1F S:08B2 T:0C44 U:0F30 V:0D11 W:0E50
-# ─────────────────────────────────────────────────────────────
-
 
 def list_ports():
     """Liệt kê tất cả COM port đang kết nối"""

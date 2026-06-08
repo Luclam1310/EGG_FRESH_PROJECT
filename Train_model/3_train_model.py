@@ -1,27 +1,3 @@
-"""
-╔══════════════════════════════════════════════════════════════════════╗
-║  EGG FRESHNESS AI - FIX TRIỆT ĐỂ CHO TANG NANO 20K                  ║
-║  Sửa lỗi quantization: Q8 features + Q16 bias                        ║
-║                                                                      ║
-║  Sơ đồ quantization ĐÚNG:                                             ║
-║    W (weights): float * 256  → signed int16 (Q8)                     ║
-║    B (bias):    float * 65536 → signed int32 (Q16)                   ║
-║    MEAN raw:    float * 256  → int (Q8)                               ║
-║    MEAN ratio:  float * 65536 → int (Q16)                             ║
-║    STD_INV:     65536/std    → int (Q16) — không đổi                  ║
-║                                                                      ║
-║  Pre-processing ĐÚNG trong FPGA:                                     ║
-║    raw[k]:   feat[k] = ((raw<<8) - MEAN_Q8) * STD_INV >> 16          ║
-║    ratio[k]: ratio_q16 = (raw<<16)/total                             ║
-║              feat[k+6] = (ratio_q16 - MEAN_Q16) * STD_INV >> 24     ║
-║                                                                      ║
-║  Layer math ĐÚNG:                                                    ║
-║    acc = B_q16 + sum(feat_q8 * W_q8)  → acc is Q16 (float*65536)    ║
-║    output_q8 = ReLU(acc >> 8)         → Q8 (float*256)               ║
-║    final day = acc_final >> 16                                        ║
-╚══════════════════════════════════════════════════════════════════════╝
-"""
-
 import os, sys
 import numpy as np
 import pandas as pd

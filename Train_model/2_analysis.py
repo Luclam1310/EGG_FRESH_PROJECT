@@ -1,16 +1,3 @@
-"""
-╔══════════════════════════════════════════════════════════════╗
-║  FILE 2: analysis.py                                         ║
-║  Phân tích dữ liệu + vẽ đồ thị giống bài báo CWT-CNN        ║
-║                                                              ║
-║  Cách dùng:                                                  ║
-║    python 2_analysis.py                                      ║
-║                                                              ║
-║  Yêu cầu:                                                    ║
-║    pip install pandas numpy matplotlib seaborn scikit-learn  ║
-╚══════════════════════════════════════════════════════════════╝
-"""
- 
 import os
 import sys
 import pandas as pd
@@ -20,10 +7,7 @@ import matplotlib.gridspec as gridspec
 from matplotlib.patches import Patch
 import warnings
 warnings.filterwarnings('ignore')
- 
-# ─────────────────────────────────────────────────────────────
-# CẤU HÌNH
-# ─────────────────────────────────────────────────────────────
+
 CSV_FILE    = "egg_data.csv"
 OUTPUT_DIR  = "plots"
 CHANNELS    = ['R', 'S', 'T', 'U', 'V', 'W']

@@ -7,7 +7,7 @@
 *   G (led[1]) = active LOW — flash khi UART đang gửi data
 *   B (led[2]) = active LOW — heartbeat blink 1Hz (code đang chạy)
 *
-* Điều kiện "code đang chạy": LED xanh dương nhấp nháy 1Hz
+* Điều kiện "code đang chạy": LED nhấp nháy 1Hz
 * → nhìn vào board thấy LED nhấp nháy = FPGA đã nạp OK
 ********************************************************/
 module led (

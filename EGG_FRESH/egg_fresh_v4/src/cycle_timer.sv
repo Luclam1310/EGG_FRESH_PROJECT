@@ -1,23 +1,4 @@
-//////////////////////////////////////////////////////////////////////////////////
-// Company:  www.circuitden.com
-// Engineer: Artin Isagholian
-//           artinisagholian@gmail.com
-// 
-// Create Date: 05/06/2023
-// Design Name: 
-// Module Name: cycle_timer
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
+
 module cycle_timer#(
     parameter BIT_WIDTH = 16
 )(

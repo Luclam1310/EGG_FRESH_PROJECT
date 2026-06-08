@@ -1,16 +1,3 @@
-// Russell Merrick - http://www.nandland.com
-//
-// Creates a Dual (2) Port RAM (Random Access Memory)
-// Single port RAM has one port, so can only access one memory location at a time.
-// Dual port RAM can read and write to different memory locations at the same time.
-//
-// WIDTH sets the width of the Memory created.
-// DEPTH sets the depth of the Memory created.
-// Likely tools will infer Block RAM if WIDTH/DEPTH is large enough.
-// If small, tools will infer register-based memory.
-// 
-// Can be used in two different clock domains, or can tie i_Wr_Clk 
-// and i_Rd_Clk to same clock for operation in a single clock domain.
 
 module RAM_2Port #(parameter WIDTH = 16, DEPTH = 256)
   (// Write Signals
